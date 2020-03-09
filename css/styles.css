@@ -1,0 +1,169 @@
+/* Style sheet created by:  SAIFALI DHUKA, 10/03/2019 */
+
+/* Style for body specifies a background color */
+body {
+	background-color: #ffffff;
+}
+
+#logo{
+	max-width: 100%;
+}
+
+/* Style for the container centers the page and specifies the width */
+#container {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.contentfacility{
+    display: none;
+    
+}
+#list{
+    display: none;   
+}
+/* Style for the header specifies top margin, background color, rounded corners, and center align content */
+header {
+	font-family: Verdana, Arial, serif;
+	font-size: 2em;
+	margin-top: 0.2em;
+	margin-bottom: 0.3em;
+	text-align: center;
+	padding: 0.2em;
+	color: #000000;
+}
+#banner {
+	text-align: center;
+}
+h3{
+    color:#387780;
+  }
+
+  #slides img {
+	display: none;
+}
+
+/* Style for the main specifies a block display, text properties, margins, padding, rounded corners, and borders  */
+article {
+	display: block;
+	font-family: Georgia, "Times New Roman", sans-serif;
+	font-size: 1em;
+	margin-top: 0.5em;
+	padding: 0.5em;
+	border-radius: 1em;
+	background-color: #FFFFFF;
+}
+.contentfacility{
+	display: none;
+}
+
+	
+/* Style for the footer specifies font size, text alignment, and top margin */
+footer {
+	font-size: .70em;
+	text-align: center;
+	margin-top: 2em;
+}
+
+footer a{
+    color:black;
+}
+/* Styles for Mobile Layout */
+.mobile{
+	display: inline;
+}
+
+/* style hides the desktop class */
+.desktop {
+    display:none;
+}
+
+/* Media query for tablet viewport */
+
+@media only screen and (min-width: 660px) {
+    #logo {
+        width: 80%;
+    }
+
+   
+    article{
+        clear: left;
+    }
+    .contentfacility{
+        display: none;
+    }
+    
+        
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        display: inline;
+    }
+}
+
+/* Media query for desktop viewport */
+
+@media only screen and (min-width: 830px) {
+
+/* Style for the container */
+#container {
+    width: 80%;
+}
+
+/* Style for image */
+header {
+    width: 100%;
+}
+h3{
+   color:#387780;
+ }
+.equip {
+  float:right;
+  width:25%;
+}
+.equip2 {
+   float:right;
+   width:15%;
+ }
+
+
+/* Style for main element */
+article {
+    border: none;
+    border-radius: 1em;
+    box-shadow: 1em 1em 1em #331400;
+    margin-top: 1em;
+}
+
+
+
+#contentfacility{
+	display: none;
+}
+#slides img {
+	display: none;
+}
+#list{
+    display: inline;   
+}
+
+
+/* Style for the footer specifies font size, text alignment, and top margin */
+footer {
+	font-size: .70em;
+	text-align: center;
+    margin-top: 2em;
+    color:grey;
+}
+footer a{
+    color:grey;
+}   
+footer a:hover{
+    color:black;
+} 
+body {
+    background: linear-gradient(#FFFFFF);
+}
+}

@@ -1,0 +1,278 @@
+/* Style sheet created by:  SAIFALI DHUKA, 10/03/2019 */
+
+/* Style for body specifies a background color */
+body {
+	background-color: #FFFFFF;
+}
+
+img {
+	max-width: 100%;
+}
+
+/* Style for the container centers the page and specifies the width */
+#container {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Style for the header specifies top margin, background color, rounded corners, and center align content */
+header {
+	font-family: Verdana, Arial, serif;
+	font-size: 2em;
+	margin-top: 0.2em;
+	margin-bottom: 0.3em;
+	text-align: center;
+	padding: 0.2em;
+	color: #000000;
+}
+#banner {
+	text-align: center;
+}
+/* Style for nav specifies text properties */
+nav {
+	font-family: Lucida, "Times New Roman", serif;
+	font-size: 1em;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* style specifies padding and margins for unordered list*/
+nav ul {
+	padding: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+/* Style for nav li specifies the background color, rounded corners, removes bullet style, and applies margins and padding for list items within the navigation */
+nav li {
+	background-color: #000000;
+	list-style-type: none;
+	margin: 0.4em;
+	padding: 0.5em;
+}
+
+/* Style changes navigation link text color to white and removes the underline */
+nav li a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.dropbtn {
+    background-color:BLACK;
+    color: white;
+    font-style:bold;
+    border: none;
+    font-family: Lucida, "Times New Roman", serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:black;
+    min-width: 160px;
+  
+  }
+  
+  .dropdown-content a {
+    color:white;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-size: 1em;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {color:grey ;
+  background-color:black;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+
+/* Style for the main specifies a block display, text properties, margins, padding, rounded corners, and borders  */
+article {
+	display: block;
+	font-family: Georgia, "Times New Roman", sans-serif;
+	font-size: 1em;
+	margin-top: 0.5em;
+	padding: 0.5em;
+	border-radius: 1em;
+	background-color: #FFFFFF;
+}
+
+/* Style for the footer specifies font size, text alignment, and top margin */
+footer {
+	font-size: .70em;
+	text-align: center;
+	margin-top: 2em;
+}
+
+footer a{
+    color:black;
+}
+/* Styles for Mobile Layout */
+.mobile{
+	display: inline;
+}
+
+/* style hides the desktop class */
+.desktop {
+    display:none;
+}
+
+/* Media query for tablet viewport */
+
+@media only screen and (min-width: 660px) {
+    img {
+        width: 80%;
+    }
+
+    nav li {
+        display: inline;
+        float: left;
+        margin-left: 1%;
+        margin-right: 1%;
+        padding-left: 0;
+        padding-right: 0;
+        width: 14.6%;
+        white-space: nowrap;
+ }
+    article{
+        clear: left;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        display: inline;
+    }
+}
+
+/* Media query for desktop viewport */
+
+@media only screen and (min-width: 830px) {
+
+/* Style for the container */
+#container {
+    width: 80%;
+}
+
+/* Style for image */
+header {
+    width: 100%;
+}
+h3{
+   color:#387780;
+ }
+.equip {
+  float:right;
+  width:25%;
+}
+.equip2 {
+   float:right;
+   width:15%;
+ }
+/* Style specifies margin and padding for the unordered list within the nav */
+nav ul {
+    margin: 0;
+    padding-left: 0.50%;
+    padding-right: 0.50%;
+}
+/* Style for navigation list items specifies a border radius, border, margin, width and padding */
+nav li {
+    border-radius: 0;
+    border-top: solid #000000;
+    border-bottom: solid #000000;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    width: 16.6%;
+}
+/* Style for navigation links secifies display and padding */
+nav li a {
+    display: inline-block;
+    padding: 0.6em;
+    font-size: 1.25em;
+}
+.dropbtn {
+    background-color:BLACK;
+    color: white;
+    padding: 12.5px;
+    font-style:bold;
+    border: none;
+    font-family: Lucida, "Times New Roman", serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:black;
+    min-width: 160px;
+  
+  }
+  
+  .dropdown-content a {
+    color:white;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-size: 1em;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {color:grey ;
+  background-color:black;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {color:grey;}
+
+/* Style for main element */
+article {
+    border: none;
+    border-radius: 1em;
+    box-shadow: 1em 1em 1em #331400;
+    margin-top: 1em;
+}
+
+/*Styles for pseudo-classes:*/
+nav li a:link {
+    color: #FFFFFF;
+}
+
+nav li a:hover {
+    color: grey;
+    font-size: 1.5em;
+}
+/* Style for the footer specifies font size, text alignment, and top margin */
+footer {
+	font-size: .70em;
+	text-align: center;
+    margin-top: 2em;
+    color:grey;
+}
+footer a{
+    color:grey;
+}   
+footer a:hover{
+    color:black;
+} 
+body {
+    background: linear-gradient(#FFFFFF);
+}
+}

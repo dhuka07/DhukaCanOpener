@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="icon" href="images/fev.png" type="image/gif" sizes="20x20">
+<link rel="stylesheet" href="css/product.css">
+<meta name="viewport" content="width-evice-width, initial-scale=1">
+
+<script	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script	src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="http://12.42.204.30:7002/jquery.jtable.js"></script>
+<script src="http://12.42.204.30:7002/scripts/helpers.js"></script>
+<link href="http://12.42.204.30:7002/themes/metro/darkgray/jtable.css" rel="stylesheet">
+
+                                                <!-- The above code should not be changed -->
+
+<link href="css/myStyles.css" rel="stylesheet"> <!-- Modify myStyles.css to add additional styles -->
+
+<title>Dhuka Can Opener</title>                             <!-- Modify title for your application -->
+
+<script>
+	$(document).ready(function() {
+		$('#container1').jtable({
+			title : 'Dhuka Can Opener',
+			paging : true,
+			pageSize : 15,
+			sorting : true,
+			defaultSorting : 'PRODUCT_ID DESC',
+			actions : {
+				listAction : 'genJson2.rpgle?jtView=PRODV1'
+			},
+			fields : {
+				product_id : {
+					title : 'PRODUCT',
+					width : '20%',
+					list : true
+				},
+				description : {
+					title : 'DESCRIPTION',
+					width : '20%',
+					list : true
+				},
+				quantity : {
+					title : 'QUANTITY',
+					width : '10%',
+					list : true
+				},
+				price : {
+					title : 'PRICE',
+					width : '20%',
+					list : true,
+				}
+						}
+			
+		});
+		$('#container1').jtable('load');
+	});
+</script>
+</head>
+
+<body>
+
+<!--header area for webpage-->
+	<header>
+	<a href="index.html"><img src="images/logo.png" alt="DHUKA'S COMPANY logo" ></a>
+	</header>
+	
+	<!--nav Area for webpage-->
+	<nav>
+		<ul>	
+				<li><a href="index.html">Home</a></li> 
+				<li><a href="about.html">About Us</a> </li>
+				<li><a href="team.html">Our Team</a> </li>
+				<li><div class="dropdown">
+					<button class="dropbtn">Products</button>
+					<div class="dropdown-content">
+					  <a href="PRODV1.html">PRODV1</a>
+					  <a href="PRODV2.html">PRODV2</a>
+					  
+					</div>
+				  </div></li>
+				<li><a href="training.html">Training</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+				<li><a href="styleGuide.html">Style Guide</a></li>
+		</ul>	
+		</nav>
+	<main>
+	<br><br><br><br>	
+	<div id="container1"></div>
+	</main>
+<!--footer of webpage-->
+	<footer>
+	&copy; Copyright 2099. All Rights Reserved.<br>
+	Request information <a href="mailto:info@Dhuka.com">contact us through email</a><br>
+	<a href="https://www.linkedin.com/in/saifali-dhuka-48857b110/">SAIFALI DHUKA</a> &nbsp;- C0749498	
+	</footer>
+
+</body>
+</html>

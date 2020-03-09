@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!--website template is created by SAIFALI DHUKA -->
+<html lang="en">
+<head>
+	<link rel="icon" href="images/fev.png" type="image/gif" sizes="20x20">
+	<title>DHUKA CAN OPENERS</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/training.css">
+	<link rel="stylesheet" type="text/css" href="css/navigation.css">	  
+	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="scripts/product.js"></script>
+	<script src="scripts/highlightMenu.js"></script>
+	
+    <script>
+            $(document).ready(function() { //this function makes defult css to menu and change accoding to plugin
+                  $("#navigationMenu").highlightMenu({
+                    bgColor:'#000000',              //background color  
+                    color:'#ffffff',                      //color    
+                    textalign: 'center',            //align text in center
+                    Display: 'inline-block',        //Display in inline-block    
+                })
+                $("#navigationMenu li").highlightMenu({
+                 Display: 'inline-block',        //Display in inline-block       
+                 color:'#ffffff',               //color 
+                 listStyleType: 'none',         //makes list type to none
+                 })
+                $("#navigationMenu li a").highlightMenu({        //function for menu element list anchor tag  
+                 textdecoration: 'none',              //making text decoration none  
+                 Display: 'inline-block',            //Display in inline-block   
+            })
+        });  
+    </script>    
+      
+</head>
+<body>
+	<div id="container">
+<!--header area for webpage-->
+<header>
+	<a href="index.html"><img src="images/logo.png" alt="DHUKA'S COMPANY logo" ></a>
+	</header>
+	
+	<!--nav Area for webpage-->
+	<nav>
+		<ul id="navigationMenu">	
+				<li><a href="index.html">Home</a></li> 
+				<li><a href="about.html">About Us</a> </li>
+				<li><a href="team.html">Our Team</a> </li>
+				<li><a href="ourproduct.html">Product</a></li>
+				<li><a href="training.html">Training</a></li>
+				<li><a href="flicker.html">Image search</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+		</ul>	
+	</nav>
+	<!--main area to add content of webpage -->
+	<main>
+		<table>
+			<div id="product"></div>
+		</table>	
+	</main>
+	
+	<!--footer of webpage-->
+	<footer>
+		&copy; Copyright 2099. All Rights Reserved.<br>
+		Request information <a href="mailto:info@Dhuka.com">contact us through email</a><br>
+		<a href="https://www.linkedin.com/in/saifali-dhuka-48857b110/">SAIFALI DHUKA</a> &nbsp;- C0749498	
+		</footer>
+	</div>
+</body>
+</html>

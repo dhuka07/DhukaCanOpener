@@ -1,0 +1,319 @@
+
+{ "productList":[
+	{
+		"Name":"Sn7 - Can Opener",
+		"Stock":"78",
+		"Quantity":"70",
+		"Size":"13x12",
+		"Color":"blue",
+		"price":"40$"
+	},
+	{
+		
+		"Name":"Ns7 - Can Opener",
+		"Stock":"67",
+		"Quantity":"30",
+		"Size":"19x15",
+		"Color":"white",
+		"price":"30$"
+	},
+	{
+		
+		"Name":"S76 - Can Opener",
+		"Stock":"70",
+		"Quantity":"40",
+		"Size":"13x12",
+		"Color":"grey",
+		"price":"40$"
+	},
+	{
+		
+		"Name":"Nd7 - Can Opener",
+		"Stock":"57",
+		"Quantity":"40",
+		"Size":"19x15",
+		"Color":"pink",
+		"price":"20$"
+	},
+	{
+
+		"Name":"Sn7 - Can Opener",
+		"Stock":"27",
+		"Quantity":"10",
+		"Size":"13x12",
+		"Color":"black",
+		"price":"40$"
+	},
+	{
+
+		"Name":"S7D - Can Opener",
+		"Stock":"37",
+		"Quantity":"7",
+		"Size":"19x15",
+		"Color":"black",
+		"price":"20$"
+	},
+	{
+
+		"Name":"N77S - Can Opener",
+		"Stock":"88",
+		"Quantity":"70",
+		"Size":"13x12",
+		"Color":"black",
+		"price":"40$"
+	},
+	{
+
+		"Name":"S17n76 - Can Opener",
+		"Stock":"71",
+		"Quantity":"40",
+		"Size":"19x15",
+		"Color":"black",
+		"price":"30$"
+	},
+	{
+
+		"Name":"Ns7D - Can Opener",
+		"Stock":"75",
+		"Quantity":"45",
+		"Size":"19x15",
+		"Color":"black",
+		"price":"40$"
+	},
+	{
+
+		"Name":"S7N - Can Opener",
+		"Stock":"97",
+		"Quantity":"80",
+		"Size":"13x12",
+		"Color":"blue",
+		"price":"20$"
+	},
+	{
+
+		"Name":"Sn7 - Can Opener",
+		"Stock":"80",
+		"Quantity":"50",
+		"Size":"19x15",
+		"Color":"black",
+		"price":"40$"
+	},
+	{
+
+		"Name":"S7DN - Can Opener",
+		"Stock":"72",
+		"Quantity":"10",
+		"Size":"13x12",
+		"Color":"grey",
+		"price":"30$"
+	},
+	{
+
+		"Name":"NSD7 - Can Opener",
+		"Stock":"70",
+		"Quantity":"40",
+		"Size":"19x15",
+		"Color":"black",
+		"price":"40$"
+	},
+	{
+
+		"Name":"SnD70 - Can Opener",
+		"Stock":"78",
+		"Quantity":"10",
+		"Size":"13x12",
+		"Color":"black",
+		"price":"20$"
+	},
+	{
+
+		"Name":"Sn1777 - Can Opener",
+		"Stock":"78",
+		"Quantity":"20",
+		"Size":"13x12",
+		"Color":"black",
+		"price":"30$"
+	},
+	{
+ 
+		"Name":"Sn7dn1 - Can Opener",
+		"Stock":"50",
+		"Quantity":"21",
+		"Size":"13x12",
+		"Color":"black",
+		"price":"40$"
+	},
+	{
+
+		"Name":"SnD76170 - Can Opener",
+		"Stock":"107",
+		"Quantity":"70",
+		"Size":"13x12",
+		"Color":"black",
+		"price":"30$"
+	},
+	{
+
+		"Name":"Sn7 - Can Opener",
+		"Stock":"69",
+		"Quantity":"20",
+		"Size":"19x15",
+		"Color":"white",
+		"price":"40$"
+	},
+	{
+
+		"Name":"Sn170607 - Can Opener",
+		"Stock":"36",
+		"Quantity":"6",
+		"Size":"13x12",
+		"Color":"blue",
+		"price":"20$"
+	},
+	{
+
+		"Name":"SnD0706 - Can Opener",
+		"Stock":"18",
+		"Quantity":"10",
+		"Size":"19x15",
+		"Color":"pink",
+		"price":"20$"
+	},
+	{
+
+		"Name":"Safn07 - Can Opener",
+		"Stock":"89",
+		"Quantity":"80",
+		"Size":"19x15",
+		"Color":"blue",
+		"price":"20$"
+		
+	},
+	{
+
+		"Name":"SnDhu70 - Can Opener",
+		"Stock":"78",
+		"Quantity":"40",
+		"Size":"13x12",
+		"Color":"grey",
+		"price":"20$"
+	},
+	{
+
+		"Name":"SKDn17 - Can Opener",
+		"Stock":"77",
+		"Quantity":"57",
+		"Size":"19x15",
+		"Color":"white",
+		"price":"20$"
+	},
+	{
+
+		"Name":"SKnmo7 - Can Opener",
+		"Stock":"58",
+		"Quantity":"8",
+		"Size":"13x12",
+		"Color":"black",
+		"price":"20$"
+	},
+	{
+
+		"Name":"SDnb7 - Can Opener",
+		"Stock":"27",
+		"Quantity":"7",
+		"Size":"15x19",
+		"Color":"blue",
+		"price":"20$"
+	},
+	{
+
+		"Name":"Safnur7 - Can Opener",
+		"Stock":"15",
+		"Quantity":"10",
+		"Size":"13x12",
+		"Color":"white",
+		"price":"20$"
+	},
+	{
+
+		"Name":"SDhunor7 - Can Opener",
+		"Stock":"98",
+		"Quantity":"50",
+		"Size":"19x15",
+		"Color":"grey",
+		"price":"20$"
+	},
+	{
+
+		"Name":"S17n76 - Can Opener",
+		"Stock":"71",
+		"Quantity":"40",
+		"Size":"19x15",
+		"Color":"black",
+		"price":"30$"
+	},
+	{
+
+		"Name":"Ns7D - Can Opener",
+		"Stock":"75",
+		"Quantity":"45",
+		"Size":"19x15",
+		"Color":"black",
+		"price":"40$"
+	},
+	{
+
+		"Name":"S7N - Can Opener",
+		"Stock":"97",
+		"Quantity":"80",
+		"Size":"13x12",
+		"Color":"blue",
+		"price":"20$"
+	},
+	{
+
+		"Name":"Sn7 - Can Opener",
+		"Stock":"80",
+		"Quantity":"50",
+		"Size":"19x15",
+		"Color":"black",
+		"price":"40$"
+	},
+	{
+
+		"Name":"S7DN - Can Opener",
+		"Stock":"72",
+		"Quantity":"10",
+		"Size":"13x12",
+		"Color":"grey",
+		"price":"30$"
+	},
+	{
+
+		"Name":"NSD7 - Can Opener",
+		"Stock":"70",
+		"Quantity":"40",
+		"Size":"19x15",
+		"Color":"black",
+		"price":"40$"
+	},
+	{
+
+		"Name":"SnD7n - Can Opener",
+		"Stock":"48",
+		"Quantity":"30",
+		"Size":"19x15",
+		"Color":"blue",
+		"price":"20$"
+	},
+	{
+
+		"Name":"Sn7D - Can Opener",
+		"Stock":"57",
+		"Quantity":"50",
+		"Size":"13x12",
+		"Color":"black",
+		"price":"30$"
+	}
+	
+]}

@@ -1,0 +1,86 @@
+/* SAIFALI DHUKA 
+	28/01/2019 */
+/*Style for body specifies background-color */
+body{
+	background-color:#FFFFFF;
+}
+/*Style for container center the page set element width  */
+#container{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*Style for header specifies top and bottom margins, background color, rounded border, shadow, and alignment */
+header{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	background-color: #FFAABB;
+	border-radius: 10px;
+	box-shadow: 12px 12px #404040;
+	text-align: center;
+        
+}
+a{
+        color:#707070; 
+        text-decoration:none;
+}
+a:hover{
+        color:#000000; 
+        text-decoration:none;
+}
+a:active{
+        color:#000000; 
+        text-decoration:none;
+}	
+/*Style for nav specifies text properties, border, padding and margins */
+nav{
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 1.25em;
+	font-weight: bold;
+	text-align: center;
+	padding: 7px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 20px;
+	border-top: 2px solid grey;
+	border-bottom: 3px solid grey;
+      
+}
+nav:hover{
+        color:black;
+}
+/*Style for main specifies a block display, text properties, margins, padding, rounded border and shadow  */
+main{
+	display:block;
+	font-family: Verdana, Areal, sans-serif;
+	font-size: 1em;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	padding: 20px;
+	border-radius: 10px;
+	background-color:#CDCDCD;
+	box-shadow: 7px 7px #D5CFE1
+        font-color:white;
+}
+.equip{
+	float:right;
+}
+.equip2{
+	align:center;
+}
+/*Style for footer specifies size, text alignment, margin */
+footer{
+	font-size: .77em;
+	text-align: center;
+	margin-top: 20px;
+        
+	}
+	.product {
+		background-color: yellow;
+		padding: 20px;
+		display: none;
+	  }
+		
+	span:hover + .product {
+		display: block;
+	  }	

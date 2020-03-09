@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<!--website template is created by SAIFALI DHUKA -->
+<!--
+	This page contains form validation using Jquery validation plugin
+
+-->
+<html lang="en">
+<head>
+	<link rel="icon" href="images/fev.png" type="image/gif" sizes="20x20">	
+	<title>DHUKA CAN OPENERS</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/contact.css">
+	<link rel="stylesheet" type="text/css" href="css/navigation.css">	  
+	<link rel="stylesheet" type="text/css" href="css/navigation.css">	  
+	<meta name="viewport" content="width-evice-width, initial-scale=1">
+	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="scripts/jquery.validate.min.js"></script>
+	<script src="scripts/additional-methods.min.js"></script>	
+	<script src="scripts/contact.js"></script>
+    <script src="scripts/highlightMenu.js"></script>
+    <script>
+            $(document).ready(function() { //this function makes defult css to menu and change accoding to plugin
+                  $("#navigationMenu").highlightMenu({
+                    bgColor:'#000000',              //background color  
+                    color:'#ffffff',                      //color    
+                    textalign: 'center',            //align text in center
+                    Display: 'inline-block',        //Display in inline-block    
+                })
+                $("#navigationMenu li").highlightMenu({
+                 Display: 'inline-block',        //Display in inline-block       
+                 color:'#ffffff',               //color 
+                 listStyleType: 'none',         //makes list type to none
+                 })
+                $("#navigationMenu li a").highlightMenu({        //function for menu element list anchor tag  
+                 textdecoration: 'none',              //making text decoration none  
+                 Display: 'inline-block',            //Display in inline-block   
+            })
+        });  
+	</script>    
+	<style>
+	label.error{
+		color: brown;
+	}
+	</style>
+      
+</head>
+<body>
+	<div id="container">
+<!--header area for webpage-->
+	<header>
+	<a href="index.html"><img src="images/logo.png" alt="DHUKA'S COMPANY logo" ></a>
+	</header>
+	
+	<!--nav Area for webpage-->
+	<nav>
+		<ul id="navigationMenu">	
+				<li><a href="index.html">Home</a></li> 
+				<li><a href="about.html">About Us</a> </li>
+				<li><a href="team.html">Our Team</a> </li>
+				<li><a href="ourproduct.html">Product</a></li>
+				<li><a href="training.html">Training</a></li>
+				<li><a href="flicker.html">Image search</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+		</ul>	
+</nav>
+	<!--main area to add content of webpage -->
+	<main>
+<fieldset><h2>How Can We Help!</h2>		
+<div class="form">
+	<legend>Contact Us</legend><br>
+  <form action="Registered.html" method="get" name="form" id="form">
+    <label for="fname">First Name: </label>
+	<input type="text" id="fname" name="fname" placeholder="Your First Name..." >
+	<br>
+
+    <label for="lname">Last Name: </label>
+	<input type="text" id="lname" name="lname" placeholder="Your Last Name..." >
+	<br>
+
+	<label for="email">Email id:  </label>&nbsp;&nbsp;&nbsp;
+	<input type="text" id="email" name="email" placeholder="Enter Your Email..." >
+	<br>
+
+	<label for="">Gender: </label><br><br>
+	<input type="radio" name="gender[]" value="male"> Male
+	<input type="radio" name="gender[]" value="female"> Female
+	<input type="radio" name="gender[]" value="other"> other
+	<label for="gender[]" class="error" style="display:none;">Please choose one.</label>
+	<br>
+	<br>
+	<label for="bday">DOB:</label>
+	<input type="Date" id="bday" name="bday"  value="YYYY-MM-DD">
+	
+
+	<br><br>
+    <label for="country">Country</label>
+    <select id="country"  name="country" >
+	  <option  value="country">Country</option>	
+      <option  value="australia">INDIA</option>
+      <option  value="canada">Canada</option>
+	  <option  value="USA">USA</option>
+	  <option  value="PORTUGAL">PORTUGAL</option>
+	  <option  value="UAE">UAE</option>
+	</select>
+	<br>
+	
+    <label for="subject">Message!</label><br>
+    <textarea id="messagefrmUser" name="messagefrmUser" placeholder="Write something..." style="height:100px"  ></textarea>
+	
+	<br><br>
+	<input type="checkbox" name="condition[]" value="I agree" id="condition">I agree all the terms and condition.
+	<label for="condition[]" class="error" style="display:none;">Please select checkbox.</label>
+	
+	<br><br>
+
+	<input type="submit" id="submit" value="Submit">
+	<input type="Reset" value="Reset">
+	
+  </form>
+  <br>
+  <hr>
+  <br>
+  	<div class="desktop">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5838.436928538624!2d-82.35192875393676!3d42.973671478588194!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8f33c2e6a2ccfad1!2sLambton+College!5e0!3m2!1sen!2sca!4v1553386615046"  frameborder="0" style="border:0" allowfullscreen></iframe>
+	<br> 
+	</div>
+	<div class="mobile"><h3>connect with us...</h3>
+		<a href="#"><img src="images/fb.png" alt="Facebook logo" style="max-width: 10%; max-height: 10%;" ></a> 
+		<a href="#"><img src="images/in.png" alt="Instagram logo" style="max-width: 10%; max-height:10%;" ></a> 
+	  <a href="#"><img src="images/tw.png" alt="Twitter logo" style="max-width: 10%; max-height: 10%;"></a> 
+	  <a href="#"><img src="images/Gmail.png" alt="Gmail logo" style="max-width: 10%; max-height: 10%;"></a>   
+	</div>	
+  	<div class="socialmedia"><h4>Connect with Us...</h4>
+  		<a href="#"><img src="images/fb.png" alt="Facebook logo" style="max-width: 4%; max-height: 3%;" ></a> 
+  		<a href="#"><img src="images/in.png" alt="Instagram logo" style="max-width: 4%; max-height: 3%;" ></a> 
+		<a href="#"><img src="images/tw.png" alt="Twitter logo" style="max-width: 4%; max-height: 5%;"></a> 
+		<a href="#"><img src="images/Gmail.png" alt="Gmail logo" style="max-width: 4%; max-height: 4%;"></a>   
+  	</div>	
+</div>
+    </main>
+    <!--footer of webpage-->
+	<footer>
+	&copy; Copyright 2099. All Rights Reserved.<br>
+	Request information <a href="mailto:info@Dhuka.com">contact us through email</a><br>
+	<a href="https://www.linkedin.com/in/saifali-dhuka-48857b110/">SAIFALI DHUKA</a> &nbsp;- C0749498	
+	</footer>
+	</div>
+</body>
+</html>
+
+
+
+
+
+
+

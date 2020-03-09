@@ -1,0 +1,206 @@
+/* Style sheet created by:  SAIFALI DHUKA, 10/03/2019 */
+
+/* Style for body specifies a background color */
+body {
+	background-color: #FFFFFF;
+}
+
+img {
+	max-width: 100%;
+}
+
+
+
+/* Style for the container centers the page and specifies the width */
+#container {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Style for the header specifies top margin, background color, rounded corners, and center align content */
+header {
+	font-family: Verdana, Arial, serif;
+	font-size: 2em;
+	margin-top: 0.2em;
+	margin-bottom: 0.3em;
+	text-align: center;
+	padding: 0.2em;
+	color: #000000;
+}
+
+#banner {
+	text-align: center;
+}
+
+
+
+h3{
+    text-align:center;
+    background-color:#f8f8f8;
+    color:#387780;
+    
+    
+}
+    p:nth-last-child(odd){
+    background-color:#DCDCDC;
+    font-weight: bold;
+     font-style: oblique;
+    }
+    
+    p:nth-last-child(even){
+    background-color:#F2F2F2;
+    font-style: oblique;
+    color:grey;
+    font-weight: bold;
+    }
+/* Style for the footer specifies font size, text alignment, and top margin */
+footer {
+	font-size: .70em;
+	text-align: center;
+    margin-top: 2em;
+    color:red;
+}
+footer a{
+    color:grey;
+} 
+/* Styles for Mobile Layout */
+.mobile{
+	display: inline;
+}
+
+/* style hides the desktop class */
+.desktop {
+    display:none;
+}
+
+
+/* Media query for tablet viewport */
+
+@media only screen and (min-width: 660px) {
+    img {
+        width: 80%;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        display: inline;
+    }
+    /* style for table element*/
+table{
+	border:0.1em solid #000000;
+	border-collapse:collapse;
+	margin-left:auto;
+	margin-right:auto;
+	width:100%
+}
+/*style specifies border and padding for th and td elements*/
+th, td{
+	border:0.1em solid #000000;
+	padding:1em;
+}
+/*style for th element*/
+th{
+	background-color:#1D1D1C;
+	color:#FFFFFF;
+}
+ tr:hover{
+	border:0.1em solid #000000;
+    padding:1em;
+    background-color:grey; 
+    color:white;
+}	
+/*style for caption*/
+caption{
+	font-size:2.0em;
+	font-weight:bold;
+    padding-bottom:0.5em;
+    background-color:grey; 
+    color:white;
+}
+tr:nth-child(even){
+    background-color:#f2f2f2;
+    }
+    tr:nth-child(even):hover{
+    background-color:grey;
+    color:white;
+    }
+}
+
+/* Media query for desktop viewport */
+
+@media only screen and (min-width: 830px) {
+
+/* Style for the container */
+#container {
+    width: 80%;
+}
+
+/* Style for image */
+header {
+    width: 100%;
+}
+
+table{
+	border:0.1em solid #000000;
+	border-collapse:collapse;
+	margin-left:auto;
+	margin-right:auto;
+	width:100%
+}
+/*style specifies border and padding for th and td elements*/
+th, td{
+	border:0.1em solid #000000;
+    padding:1em;
+    font-style: oblique;
+}
+/*style for th element*/
+th{
+	background-color:#1D1D1C;
+	color:#FFFFFF;
+}
+ tr:hover{
+	border:0.1em solid #000000;
+    padding:1em;
+    background-color:grey; 
+    color:white;
+}	
+/*style for caption*/
+caption{
+        font-size:2.0em;
+	    font-weight:bold;
+        padding:0.2em;
+        background-color:#f2f2f2;
+        color:#387780;
+        border:2px solid grey;
+        border-radius: 20px 0px 20px 0px ;
+      }
+      
+
+tr:nth-child(even){
+    background-color:#f2f2f2;
+    }
+    tr:nth-child(even):hover{
+    background-color:grey;
+    color:white;
+    }
+/* Style for the footer specifies font size, text alignment, and top margin */
+footer {
+	font-size: .70em;
+	text-align: center;
+    margin-top: 2em;
+    color:white;
+}
+footer a{
+    color:white;
+}   
+footer a:hover{
+    color:black;
+} 
+body {
+     background: linear-gradient(#FFFFFF, #808080);
+}
+}

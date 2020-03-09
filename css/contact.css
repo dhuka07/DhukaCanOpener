@@ -1,0 +1,351 @@
+/* Style sheet created by:  SAIFALI DHUKA, 10/03/2019 */
+
+/* Style for body specifies a background color */
+body {
+	background-color: #FFFFFF;
+}
+
+img {
+	max-width: 100%;
+}
+
+
+
+/* Style for the container centers the page and specifies the width */
+#container {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Style for the header specifies top margin, background color, rounded corners, and center align content */
+header {
+	font-family: Verdana, Arial, serif;
+	font-size: 2em;
+	margin-top: 0.2em;
+	margin-bottom: 0.3em;
+	text-align: center;
+	padding: 0.2em;
+	color: #000000;
+}
+
+#banner {
+	text-align: center;
+}
+
+
+/* Style for the main specifies a block display, text properties, margins, padding, rounded corners, and borders  */
+main {
+	display: block;
+	font-family: Georgia, "Times New Roman", sans-serif;
+	font-size: 1em;
+	margin-top: 0.5em;
+	padding: 0.5em;
+	border-radius: 1em;
+	background-color: #FFFFFF;
+}
+fieldset{ 
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2; 
+   }
+   form{ 
+    background-image: url("images/contactus.png");
+    background-position:center;  
+    background-repeat: no-repeat; 
+    padding: 25px;
+     } 
+
+section img{
+    height:10em;
+    width:12em;
+}
+/*style for caption*/
+ h2{
+    font-size:1.5em;
+    font-weight:bold;
+    padding-bottom:0.3em;
+    padding-top:0.3em;     
+    border-radius: 15px 0px 15px 0px;
+    margin-top:0.2em; 
+    margin-bottom:0.1em; 
+    background-color:grey; 
+    color:white;
+    text-align:center;
+} 
+legend{
+    font-size:1.5em;
+    font-weight:bold; 
+    color:grey;
+    text-align: center;
+    }
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color:grey;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color:#555 ;
+  }
+  input[type=reset] {
+    background-color:grey;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+  }
+  
+  input[type=reset]:hover {
+    background-color:#555 ;
+  }
+  label.error {
+	float: none;
+	color: grey;
+	font-size: 87.5%;
+}
+  .socialmedia{
+    display:none;
+  }
+   
+figcaption{
+    color:grey;
+    text-align:left;
+    text-decoration: underline;
+    }
+/* Style for the footer specifies font size, text alignment, and top margin */
+footer {
+	font-size: .70em;
+	text-align: center;
+    margin-top: 2em;
+    color:grey;
+}
+footer a{
+    color:grey;
+} 
+
+/* Styles for Mobile Layout */
+.mobile{
+	display: inline;
+}
+
+/* style hides the desktop class */
+.desktop {
+    display:none;
+}
+
+/* Media query for tablet viewport */
+
+@media only screen and (min-width: 660px) {
+    img {
+        width: 80%;
+    }
+
+     aside{
+        background-color:#808080;
+        color:#FFFFFF;
+        border-radius:0 5em 5em 5em;
+        box-shadow:1em 1em 1em #4C4F4D;
+        padding:1.5em;
+        margin:1em;
+    }
+    main {
+        clear: left;
+    }
+    section img{
+        background-color:#000000;
+        display:inline;
+        height:8em;
+        width:28%;
+        margin:1%;
+        padding:1%;
+    }
+    
+    /*Style for anchor elements within the figure element*/
+    
+    section a{
+        background-color:transparent;
+        padding:0;
+        text-decoration:none;
+    }  iframe{
+    width:100%;
+    height:200px;
+    margin-left:auto;
+    margin-right: auto;
+  }
+.socialmedia{
+    display:inline;
+  }
+  fieldset{ 
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2; 
+     }
+    form{ 
+    background-image: url("images/contactus.png");
+    background-position:center;  
+    background-repeat: no-repeat; 
+    padding: 25px;
+     } 
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        display: inline;
+    }
+}
+
+/* Media query for desktop viewport */
+
+@media only screen and (min-width: 830px) {
+
+/* Style for the container */
+#container {
+    width: 80%;
+}
+
+/* Style for image */
+header {
+    width: 100%;
+}
+
+.equip {
+  float:left;
+  width:20%;
+}
+h2{
+    text-align:left;
+}
+
+/* Style for main element */
+main {
+    border: none;
+    border-radius: 1em;
+    box-shadow: 1em 1em 1em #331400;
+    margin-top: 1em;
+}
+h1{
+    text-align: center;
+    background-color: #4C4F4D;
+    color:#FFFFFF;
+}
+section img{
+    height:10em;
+    width:12em;
+    opacity:0.7;   
+}
+
+/*Style removes transparency on hover*/
+section img:hover{
+    opacity:1;
+}
+
+/*style for caption*/
+   h2{
+    font-size:1.5em;
+    font-weight:bold;
+    padding-bottom:0.3em;
+    padding-top:0.3em;     
+    margin-top:0.2em; 
+    margin-bottom:0.1em; 
+    background-color:grey; 
+    color:white;
+    border-radius:1.5em;
+    text-align:center;
+    border-radius: 15px 0px 15px 0px;
+} 
+legend{
+    font-size:1.7em;
+    font-weight:bold; 
+    color:grey;
+    }
+input[type=text], select, textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color:grey;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color:#555 ;
+  }
+  input[type=reset] {
+    background-color:grey;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+  }
+  
+  input[type=reset]:hover {
+    background-color:#555 ;
+  }
+  
+  iframe{
+    width:100%;
+    height:300px;
+    margin-left:auto;
+    margin-right: auto;
+  }
+  .socialmedia{
+    display:inline;
+  }
+  .fieldset{ 
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2; 
+     }
+  
+    form{ 
+    background-image: url("images/contactus.png");
+    background-position:center;  
+    background-repeat: no-repeat; 
+    padding: 25px;
+     } 
+     
+/* Style for the footer specifies font size, text alignment, and top margin */
+footer {
+	font-size: .70em;
+	text-align: center;
+    margin-top: 2em;
+    color:white;
+}
+footer a{
+    color:white;
+}   
+footer a:hover{
+    color:black;
+} 
+body {
+     background: linear-gradient(#FFFFFF, #808080);
+}
+}

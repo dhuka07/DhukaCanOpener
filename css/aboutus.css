@@ -1,0 +1,160 @@
+/* Style sheet created by:  SAIFALI DHUKA, 14/03/2019*/
+
+/* Style for body specifies a background color */
+body {
+	background-color: #FFFFFF;
+}
+
+img {
+	max-width: 100%;
+}
+
+
+
+/* Style for the container centers the page and specifies the width */
+#container {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Style for the header specifies top margin, background color, rounded corners, and center align content */
+header {
+	font-family: Verdana, Arial, serif;
+	font-size: 2em;
+	margin-top: 0.2em;
+	margin-bottom: 0.3em;
+	text-align: center;
+	padding: 0.2em;
+	color: #000000;
+}
+
+#banner {
+	text-align: center;
+}
+
+/* Style for the main specifies a block display, text properties, margins, padding, rounded corners, and borders  */
+main {
+	display: block;
+	font-family: Georgia, "Times New Roman", sans-serif;
+	font-size: 1em;
+	margin-top: 0.5em;
+	padding: 0.5em;
+	border-radius: 1em;
+	background-color: #FFFFFF;
+}
+video{
+display:none;
+}
+/* Style for the footer specifies font size, text alignment, and top margin */
+footer {
+	font-size: .70em;
+	text-align: center;
+    margin-top: 2em;
+    color:grey;
+}
+footer a{
+    color:grey;
+} 
+
+/* Styles for Mobile Layout */
+.mobile{
+	display: inline;
+}
+
+/* style hides the desktop class */
+.desktop {
+    display:none;
+}
+
+/* Media query for tablet viewport */
+
+@media only screen and (min-width: 660px) {
+    img {
+        width: 80%;
+    }
+
+  
+/* Style for the container */
+#container {
+    width: 80%;
+}
+
+/* Style for image */
+header {
+    width: 100%;
+}
+
+.equip {
+  float:left;
+  width:20%;
+}
+
+   /* Style for main element */
+main {
+    clear:left;
+}
+video{
+    display:none;
+}
+.mobile {
+display: none;
+}
+
+.desktop {
+    display: inline;
+    }
+}
+
+/* Media query for desktop viewport */
+
+@media only screen and (min-width: 830px) {
+
+/* Style for the container */
+#container {
+    width: 80%;
+}
+
+/* Style for image */
+header {
+    width: 100%;
+}
+
+.equip {
+  float:left;
+  width:20%;
+}
+
+/* Style for main element */
+main {
+    border: none;
+    border-radius: 1em;
+    box-shadow: 1em 1em 1em #331400;
+    margin-top: 1em;
+}
+video{
+    display:inline;
+    height:300px;
+    width:600px;
+   
+    }
+article{
+    color:white;
+}    
+/* Style for the footer specifies font size, text alignment, and top margin */
+footer {
+	font-size: .70em;
+	text-align: center;
+    margin-top: 2em;
+    color:white;
+}
+footer a{
+    color:white;
+}   
+footer a:hover{
+    color:black;
+}  
+body {
+     background: linear-gradient(#FFFFFF, #808080);
+}
+}

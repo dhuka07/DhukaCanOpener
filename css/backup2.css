@@ -1,0 +1,170 @@
+/* SAIFALI DHUKA 
+	04/03/2019 */
+/*Style for body specifies background-color */
+body{
+	background-color:#FFFFFF;
+}
+/*Style for container center the page set element width  */
+#container{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*Style for header specifies top and bottom margins, background color, rounded border, shadow, and alignment */
+header{
+	margin-top: 0.2em;
+	background-color: #FFFFFF;
+	border-radius: 0.5em;
+	text-align: center;
+}	
+/*Style for nav specifies text properties, border, padding and margins */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+ nav li {
+    float: left;
+  }
+  
+ nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+/*Style for mobile class*/
+.moblie {
+	display:inline;
+}
+/*Style hides desktop class*/
+.desktop {
+	display:none;
+}
+
+/*Style for main specifies a block display, text properties, margins, padding, rounded border and shadow  */
+
+main{
+	display:block;
+	font-family: Verdana, Areal, sans-serif;
+	font-size: 1em;
+	margin-top: 0.2em;
+	padding: 1em;
+	border-radius: 1em;
+	background-color: #FFFFFF;
+	border-top:solid 0.2em grey ;
+	border-bottom:solid 0.2em #F0F0F0;
+}
+/*Style for footer specifies size, text alignment, margin */
+footer{
+	font-size: .70em;
+	text-align: center;
+    margin-top: 2em;
+    color:white;
+	
+}
+footer a{
+    color:white;
+	
+}
+footer a:hover{
+    color:#111;
+    font-weight: bold;	
+}
+.equip{
+	display:none;
+}
+
+
+img{
+	max-width:100%;
+}
+/* Style hides tablet class*/
+.tablet{
+	display:none;
+}
+/* media query for tablet view port target source size with minimum width of 660px*/
+/*media query for tablet layout for minimum width of 660px */
+@media only screen and (min-width: 660px)
+{
+
+/* style specifies a horizontal display for navigation links */
+/* style specifies a horizontal display for navigation links */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+ 
+
+/*Style specifies to hide the mobile class*/
+
+.mobile{
+	display: none;
+}
+
+/* style specifies to display the desktop class */
+
+.desktop{
+	display: inline;
+}
+
+}
+
+
+/* media query for tablet view port target source size with minimum width of 769px*/
+/*media query for desktop layout for minimum width of 830px */
+@media only screen and (min-width: 830px)
+{
+
+/* Style specifies a width for container */
+
+#container {
+	width: 80%;
+}
+
+
+
+/* styles specifies border, box shadow, and margins for the main element */
+main{
+	border-style: none;
+	box-shadow: 0.5em 0.5em 0.5em #404040;
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
+
+/* Styles rules for pseudo-classes */
+nav li a:hover {
+    background-color: #111;
+    color:grey;
+    font-weight: bold;
+  }
+  nav li a:link{
+       color: #FFFFFF;
+  }
+  nav li a:visited{
+       color:#F0F0F0;
+  }
+  
+  nav li a:active{
+       color:black;
+  }
+/* Styles specifies a gradient for the body element */
+
+body{
+	background: -moz-linear-gradient(#FFFFFF,#808080); /*Firefox*/
+	background: -o-linear-gradient(#FFFFFF,	#808080); /*opera*/
+	background: -webkit-linear-gradient(#FFFFFF,#808080); /*Chrome, Safari*/
+	background: linear-gradient(#FFFFFF,#808080); 
+	background-attachment: fixed;
+}
+}
